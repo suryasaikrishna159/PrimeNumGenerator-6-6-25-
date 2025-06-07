@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>prime num generator</title>
+    <style>
+        td{
+            width: 100px;
+            padding-left: 10px;
+            font-weight: 700;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        table{
+            height: 50vh;
+            width: 50vw;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h2>Prime Number Generator</h2>
+
+    <table border="2" style="border-collapse: collapse;">
+        <form>
+            <tr><td>start</td><td><input type="number" id="start"></td></tr>
+            <tr><td>end</td><td><input type="number" id="end"></td></tr>
+            <tr><td>Prime Numbers</td><td><textarea id="prime" rows="10" cols="30"></textarea></td></tr>
+            <tr><td></td><td><button>Generate</button></td></tr>
+        </form>
+    </table>
+
+    <script src="primenumbergenerator.js"></script>
+</body>
+</html>
